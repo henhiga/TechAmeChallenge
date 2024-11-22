@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DE15D1BE-93EA-4B0C-8570-DD5EB0BFE7A9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A503674-0A0E-484D-8660-4AC649C70D61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechAmeChallenge/API/Endpoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "request"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1A503674-0A0E-484D-8660-4AC649C70D61 - d9f91d5d91cd0355"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TechAmeChallenge.Endpoint.request.getter : Swift.Optional&lt;Foundation.URLRequest&gt;"
+                  moduleName = "TechAmeChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hen/proj/techame/TechAmeChallenge/TechAmeChallenge/API/Endpoint.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "1A503674-0A0E-484D-8660-4AC649C70D61 - d9f91d5d91cd0355"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TechAmeChallenge.Endpoint.request.getter : Swift.Optional&lt;Foundation.URLRequest&gt;"
+                  moduleName = "TechAmeChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hen/proj/techame/TechAmeChallenge/TechAmeChallenge/API/Endpoint.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "456">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4107B42E-702A-4CD0-865B-B98122E2F009"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechAmeChallenge/ViewModel/ViewControllerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetchRepo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7096EA8B-B0D6-404F-9C90-02E4077442A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechAmeChallenge/API/Endpoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "url"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "7096EA8B-B0D6-404F-9C90-02E4077442A2 - bd4a74e3a8585257"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TechAmeChallenge.Endpoint.url.getter : Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "TechAmeChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hen/proj/techame/TechAmeChallenge/TechAmeChallenge/API/Endpoint.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "7096EA8B-B0D6-404F-9C90-02E4077442A2 - bd4a74e3a8585257"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TechAmeChallenge.Endpoint.url.getter : Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "TechAmeChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hen/proj/techame/TechAmeChallenge/TechAmeChallenge/API/Endpoint.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "272">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAEFB2BC-0FDC-42A9-829E-4F9E5EB6E160"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechAmeChallenge/API/Endpoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "request"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57991A05-DC74-4243-8B6D-0B56F492D47D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechAmeChallenge/API/Endpoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "url"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "57991A05-DC74-4243-8B6D-0B56F492D47D - bd4a74e3a8585215"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TechAmeChallenge.Endpoint.url.getter : Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "TechAmeChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hen/proj/techame/TechAmeChallenge/TechAmeChallenge/API/Endpoint.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "57991A05-DC74-4243-8B6D-0B56F492D47D - bd4a74e3a8585215"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TechAmeChallenge.Endpoint.url.getter : Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "TechAmeChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hen/proj/techame/TechAmeChallenge/TechAmeChallenge/API/Endpoint.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "360">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1119FF1F-DE95-42C7-B530-D9250C24024F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechAmeChallenge/ViewModel/ViewControllerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchRepo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
