@@ -331,26 +331,11 @@
             filePath = "TechAmeChallenge/ViewModel/ViewControllerViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "fetchRepo()"
             landmarkType = "7">
             <Locations>
-               <Location
-                  uuid = "6FD959F4-63F6-473E-8B84-F008BDADE22A - a45453dcae8d0668"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;TechAmeChallenge.Repo&gt;, TechAmeChallenge.GitServiceError&gt;) -&gt; () in TechAmeChallenge.ViewControllerViewModel.fetchRepo() -&gt; ()"
-                  moduleName = "TechAmeChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hen/proj/techame/TechAmeChallenge/TechAmeChallenge/ViewModel/ViewControllerViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "760">
-               </Location>
                <Location
                   uuid = "6FD959F4-63F6-473E-8B84-F008BDADE22A - 6ce0880b96401c44"
                   shouldBeEnabled = "Yes"
@@ -364,7 +349,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "35"
                   endingLineNumber = "35"
-                  offsetFromSymbolStart = "968">
+                  offsetFromSymbolStart = "996">
                </Location>
                <Location
                   uuid = "6FD959F4-63F6-473E-8B84-F008BDADE22A - 6ce0880b96401c44"

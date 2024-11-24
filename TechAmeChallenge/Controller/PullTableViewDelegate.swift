@@ -32,7 +32,7 @@ class PullTableViewDelegate: NSObject, UITableViewDelegate {
         tableView.deselectRow(at: indexPath, animated: true)
         
         
-        let webViewController = WebViewController(urlString: pulls[indexPath.row].url)
+        let webViewController = WebViewController(urlString: modifyString(url: pulls[indexPath.row].url) )
         webViewController.modalPresentationStyle = .fullScreen
         self.navigationController?.viewControllers[1].present(webViewController, animated: true)
     }
