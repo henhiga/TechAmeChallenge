@@ -26,7 +26,6 @@ class ViewControllerViewModel {
     public func fetchRepo(){
         let endpoint = Endpoint.fetchRepo(page: fetchCount.formatted())
         self.fetchCount+=1
-        let apiService = ApiService()
         ApiService.fetchData(with: endpoint, modelType: RepoArray.self){ [weak self] result in
             switch result{
             case .success(let repos):
