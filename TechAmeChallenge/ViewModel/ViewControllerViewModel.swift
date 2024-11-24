@@ -26,11 +26,12 @@ class ViewControllerViewModel {
     public func fetchRepo(){
         let endpoint = Endpoint.fetchRepo(page: fetchCount.formatted())
         self.fetchCount+=1
-        RepoService.fetchAirQuality(with: endpoint){ [weak self] result in
+        let apiService = ApiService()
+        ApiService.fetchData(with: endpoint, modelType: RepoArray.self){ [weak self] result in
             switch result{
             case .success(let repos):
-                self?.repos.append(contentsOf: repos)
-                print("fetched \(repos.count) items")
+                self?.repos.append(contentsOf: repos.items)
+                print("fetched \(repos.items.count) items")
             case .failure(let error):
                 self?.onErrorMessage?(error)
             }

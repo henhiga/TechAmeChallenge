@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 //    let repos: [Repo] = Repo.mockedData()
     private let viewModel: ViewControllerViewModel
     
+    
     let tableView: UITableView = {
         let table = UITableView()
         table.register(RepoCell.self, forCellReuseIdentifier: RepoCell.identifier)
@@ -23,13 +24,12 @@ class ViewController: UIViewController {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "Loading Repositories..."
-        label.font = UIFont.systemFont(ofSize: 32)
-        label.numberOfLines = 2
+//        label.font = UIFont.systemFont(ofSize: 32)
         label.textAlignment = .center
         return label
     }()
     
-    lazy var tableViewDelegate = TableViewDelegate(repos: viewModel.repos, viewModel: viewModel)
+    lazy var tableViewDelegate = TableViewDelegate(repos: viewModel.repos, viewModel: viewModel, navigationController: self.navigationController!)
     lazy var tableViewDataSource = TableViewDataSource(repos: viewModel.repos)
     
     init(viewModel: ViewControllerViewModel = ViewControllerViewModel()) {
@@ -56,6 +56,7 @@ class ViewController: UIViewController {
             }
         }
         self.viewModel.onErrorMessage = { [weak self] error in
+                self?.msgLabel.text = "error fetching: \(error.localizedDescription)"
             DispatchQueue.main.async{
                 switch error{
                 case .serverError(let serverError):
@@ -67,7 +68,7 @@ class ViewController: UIViewController {
                 }
             }
         }
-        
+        checkAfter10S()
     }
     
     func setupMsgTxt(){
@@ -76,6 +77,7 @@ class ViewController: UIViewController {
             msgLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             msgLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             msgLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            msgLabel.bottomAnchor.constraint(equalTo: view.bottomAnchor),
         ])
     }
     
@@ -92,7 +94,13 @@ class ViewController: UIViewController {
         ])
     }
     
-    
+    func checkAfter10S(){
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
+            if self.viewModel.repos.isEmpty{
+                self.msgLabel.text = "error calling the api / expired try again"
+            }
+        }
+    }
 
 
 }

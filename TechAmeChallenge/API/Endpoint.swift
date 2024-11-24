@@ -9,14 +9,13 @@ import Foundation
 
 enum Endpoint {
     case fetchRepo(url: String = "/search/repositories", page: String = "1")
-    case fetchPull(url: String = "/pulls", user: String = "", name: String = "")
+    case fetchPull(url: String = "/search/issues", user: String = "", name: String = "")
     
     var request: URLRequest? {
         guard let url = self.url else {return nil}
         var request = URLRequest(url: url)
         
         request.httpMethod = self.httpMethod
-//        request.addValues(for: self)
         return request
     }
     
@@ -37,8 +36,10 @@ enum Endpoint {
                 URLQueryItem(name: "sort", value: "stars"),
                 URLQueryItem(name: "page", value: page)
             ]
-        case .fetchPull:
-            return []
+        case .fetchPull(_, let user, let name):
+            return [
+                URLQueryItem(name: "q", value: "repo:\(user)/\(name)+type:pr+state:open")
+            ]
         }
     }
     
@@ -46,8 +47,8 @@ enum Endpoint {
         switch self {
         case .fetchRepo(let url, _):
             return url
-        case .fetchPull(let url, let user, let name):
-            return "/repos/\(user)/\(name)\(url)"
+        case .fetchPull(let url, _ , _):
+            return url
         }
     }
     
